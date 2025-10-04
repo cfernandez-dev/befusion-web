@@ -34,7 +34,7 @@ body {
     width: 70%;
     margin-left: 30%;
     padding: 2rem;
-    background-color: #333333;
+    background-color: #ffffff;
     min-height: 100vh;
 }
 
@@ -123,9 +123,9 @@ body {
 
 .sidebar-nav a:hover,
 .sidebar-nav a.active {
-    color: #FFC107;
-    border-left-color: #FFC107;
-    background-color: rgba(255, 193, 7, 0.1);
+    color: #FFD700;
+    border-left-color: #FFD700;
+    background-color: #6B6B45;
 }
 
 /* Header Styles - Hidden for sidebar layout */
@@ -197,7 +197,7 @@ body {
 .main-content h1 {
     font-size: 3rem;
     font-weight: 700;
-    color: white;
+    color: #2F4F4F;
     text-transform: uppercase;
     margin-bottom: 1rem;
     letter-spacing: 2px;
@@ -206,7 +206,7 @@ body {
 .main-content h2 {
     font-size: 1.5rem;
     font-weight: 400;
-    color: white;
+    color: #2F4F4F;
     font-style: italic;
     margin-bottom: 2rem;
     text-align: center;
@@ -215,7 +215,7 @@ body {
 .content-separator {
     width: 100%;
     height: 2px;
-    background-color: white;
+    background-color: #2F4F4F;
     margin: 2rem 0;
 }
 
@@ -236,7 +236,7 @@ body {
 
 .content-text p {
     font-size: 1.1rem;
-    color: white;
+    color: #333333;
     margin-bottom: 1.5rem;
     text-align: left;
 }
@@ -246,14 +246,14 @@ body {
     font-weight: 600;
     text-align: center;
     margin-top: 2rem;
-    color: #FFC107;
+    color: #FFD700;
 }
 
 /* Hero Section - Updated for new layout */
 .hero {
-    background: transparent;
+    background: #333333;
     color: white;
-    padding: 0;
+    padding: 2rem;
     text-align: left;
     position: relative;
     overflow: hidden;
@@ -273,6 +273,7 @@ body {
     margin-bottom: 1rem;
     text-transform: uppercase;
     letter-spacing: 2px;
+    color: white;
 }
 
 .hero h2 {
@@ -289,6 +290,7 @@ body {
     margin-bottom: 1.5rem;
     opacity: 1;
     line-height: 1.8;
+    color: white;
 }
 
 .hero-cta {
@@ -298,11 +300,11 @@ body {
 .hero-cta h3 {
     font-size: 1.5rem;
     margin-bottom: 1rem;
-    color: #FFC107;
+    color: #FFD700;
 }
 
 .btn-primary {
-    background: #FFC107;
+    background: #FFD700;
     color: #333;
     padding: 15px 30px;
     border: none;
@@ -316,28 +318,28 @@ body {
 }
 
 .btn-primary:hover {
-    background: #FFD700;
+    background: #FFC107;
     transform: translateY(-2px);
-    box-shadow: 0 5px 15px rgba(255, 193, 7, 0.3);
+    box-shadow: 0 5px 15px rgba(255, 215, 0, 0.3);
 }
 
 /* Choose Garment Section */
 .choose-garment {
-    background: #f8f9fa;
+    background: #ffffff;
     padding: 80px 0;
     text-align: center;
 }
 
 .choose-garment h2 {
     font-size: 2.5rem;
-    color: #2c3e50;
+    color: #2F4F4F;
     margin-bottom: 2rem;
     font-weight: 700;
 }
 
 .choose-garment p {
     font-size: 1.2rem;
-    color: #666;
+    color: #333333;
     max-width: 800px;
     margin: 0 auto;
     line-height: 1.8;
@@ -346,7 +348,7 @@ body {
 /* Services Section */
 .services {
     padding: 80px 0;
-    background: #fff;
+    background: #ffffff;
 }
 
 .services .container {
@@ -357,7 +359,7 @@ body {
 
 .service-card {
     background: white;
-    color: #333;
+    color: #333333;
     padding: 3rem;
     border-radius: 10px;
     text-align: center;
@@ -374,12 +376,13 @@ body {
     font-size: 1.8rem;
     margin-bottom: 1.5rem;
     font-weight: 700;
+    color: #333333;
 }
 
 .service-card p {
     font-size: 1.1rem;
     line-height: 1.8;
-    color: #666;
+    color: #333333;
 }
 
 /* Gallery Section */

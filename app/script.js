@@ -19,8 +19,7 @@ async function loadSection(sectionName, containerId) {
 // Función para cargar todas las secciones
 async function loadAllSections() {
     const sections = [
-        { name: 'header', container: 'header-container' },
-        { name: 'navigation', container: 'navigation-container' },
+        { name: 'sidebar', container: 'sidebar-container' },
         { name: 'hero', container: 'hero-container' },
         { name: 'choose-garment', container: 'choose-garment-container' },
         { name: 'services', container: 'services-container' },
@@ -273,7 +272,7 @@ function initializeDropdownMenu() {
 function initializeActiveNavigation() {
     window.addEventListener('scroll', function() {
         const sections = document.querySelectorAll('section[id]');
-        const navLinks = document.querySelectorAll('.nav-link');
+        const navLinks = document.querySelectorAll('.sidebar-nav a');
         
         let current = '';
         sections.forEach(section => {
@@ -358,9 +357,10 @@ style.textContent = `
         }
     }
     
-    .nav-link.active {
-        color: #e74c3c !important;
-        font-weight: 600;
+    .sidebar-nav a.active {
+        color: #FFC107 !important;
+        border-left-color: #FFC107 !important;
+        background-color: rgba(255, 193, 7, 0.1) !important;
     }
     
     .fade-in {

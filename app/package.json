@@ -1,0 +1,38 @@
+{
+  "name": "estampados-fusion-cali",
+  "version": "1.0.0",
+  "description": "Estampados Fusion Cali - Creatividad 100% Caleña. Estampados personalizados desde 2012",
+  "main": "index.html",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'No build step required for static site'",
+    "deploy": "vercel --prod",
+    "preview": "vercel"
+  },
+  "keywords": [
+    "estampados",
+    "personalizados",
+    "cali",
+    "colombia",
+    "camisetas",
+    "gorras",
+    "mugs",
+    "fundas",
+    "mamelucos",
+    "sacos",
+    "sublimacion"
+  ],
+  "author": "Estampados Fusion Cali <estampadosfusion.cali@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "vercel": "^32.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/estampados-fusion-cali"
+  },
+  "homepage": "https://estampadosfusion.com"
+}

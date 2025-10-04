@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "name": "estampados-fusion-cali",
+  "name": "be-fusion-cali",
   "builds": [
     {
       "src": "**/*",

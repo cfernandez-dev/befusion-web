@@ -142,7 +142,7 @@ body {
     position: absolute;
     top: 100%;
     left: 0;
-    background: #fff;
+    background: #ffffff;
     box-shadow: 0 4px 20px rgba(0,0,0,0.1);
     border-radius: 8px;
     min-width: 250px;
@@ -175,7 +175,7 @@ body {
 
 .dropdown-menu a:hover {
     background-color: #f8f9fa;
-    color: #e74c3c;
+    color: #FFD700;
 }
 
 /* Hamburger Menu */
@@ -388,7 +388,7 @@ body {
 /* Gallery Section */
 .gallery {
     padding: 80px 0;
-    background: #f8f9fa;
+    background: #ffffff;
 }
 
 .gallery-grid {
@@ -404,6 +404,8 @@ body {
     overflow: hidden;
     box-shadow: 0 5px 20px rgba(0,0,0,0.1);
     transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
 }
 
 .gallery-item:hover {
@@ -413,12 +415,16 @@ body {
 .gallery-image {
     position: relative;
     overflow: hidden;
+    background: #2F4F4F;
+    padding: 2rem;
+    text-align: center;
+    flex: 1;
 }
 
 .gallery-image img {
     width: 100%;
-    height: 250px;
-    object-fit: cover;
+    height: 150px;
+    object-fit: contain;
     transition: transform 0.3s ease;
 }
 
@@ -426,23 +432,48 @@ body {
     transform: scale(1.05);
 }
 
-.gallery-item h4 {
-    padding: 1rem 1.5rem 0.5rem;
+.gallery-image h4 {
     font-size: 1.3rem;
-    color: #333;
-    font-weight: 600;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 1rem 0 0.5rem;
+    letter-spacing: 1px;
 }
 
-.gallery-item p {
-    padding: 0 1.5rem 1.5rem;
-    color: #666;
+.gallery-image p {
+    color: #FFD700;
     font-style: italic;
+    font-size: 1rem;
+    margin: 0;
+}
+
+.gallery-item .bottom-section {
+    background: white;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.gallery-item .bottom-section h4 {
+    font-size: 1.3rem;
+    color: #333333;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0 0 0.5rem;
+    letter-spacing: 1px;
+}
+
+.gallery-item .bottom-section p {
+    color: #666666;
+    font-style: italic;
+    font-size: 1rem;
+    margin: 0;
 }
 
 /* Contact Section */
 .contact {
     padding: 80px 0;
-    background: #2c3e50;
+    background: #333333;
     color: white;
 }
 
@@ -468,30 +499,32 @@ body {
 .contact-item i {
     font-size: 3rem;
     margin-bottom: 1rem;
-    color: #f39c12;
+    color: #FFD700;
 }
 
 .contact-item h4 {
     font-size: 1.5rem;
     margin-bottom: 1rem;
     font-weight: 600;
+    color: white;
 }
 
 .contact-item p {
     font-size: 1.1rem;
     opacity: 0.9;
     line-height: 1.6;
+    color: white;
 }
 
 /* Product Sections */
 .product-section {
     padding: 80px 0;
-    background: #fff;
+    background: #ffffff;
 }
 
 .product-section h2 {
     font-size: 2.5rem;
-    color: #2c3e50;
+    color: #2F4F4F;
     margin-bottom: 3rem;
     text-align: center;
     font-weight: 700;
@@ -534,7 +567,7 @@ body {
     content: '✓';
     position: absolute;
     left: 0;
-    color: #e74c3c;
+    color: #FFD700;
     font-weight: bold;
 }
 
@@ -547,12 +580,12 @@ body {
 /* Sublimación Gran Formato Section */
 .sublim-gran-formato {
     padding: 80px 0;
-    background: #f8f9fa;
+    background: #ffffff;
 }
 
 .sublim-gran-formato h2 {
     font-size: 2.5rem;
-    color: #2c3e50;
+    color: #2F4F4F;
     margin-bottom: 3rem;
     text-align: center;
     font-weight: 700;
@@ -567,14 +600,14 @@ body {
 
 .sublim-info h3 {
     font-size: 1.8rem;
-    color: #333;
+    color: #333333;
     margin-bottom: 1.5rem;
     font-weight: 600;
 }
 
 .sublim-info p {
     font-size: 1.1rem;
-    color: #666;
+    color: #333333;
     margin-bottom: 1.5rem;
 }
 
@@ -585,7 +618,7 @@ body {
 
 .sublim-info ul li {
     padding: 0.5rem 0;
-    color: #333;
+    color: #333333;
     font-size: 1.1rem;
     position: relative;
     padding-left: 1.5rem;
@@ -595,7 +628,7 @@ body {
     content: '✓';
     position: absolute;
     left: 0;
-    color: #e74c3c;
+    color: #FFD700;
     font-weight: bold;
 }
 
@@ -620,25 +653,25 @@ body {
 
 .feature-item i {
     font-size: 3rem;
-    color: #e74c3c;
+    color: #FFD700;
     margin-bottom: 1rem;
 }
 
 .feature-item h4 {
     font-size: 1.3rem;
-    color: #333;
+    color: #333333;
     margin-bottom: 0.5rem;
     font-weight: 600;
 }
 
 .feature-item p {
-    color: #666;
+    color: #333333;
     font-size: 1rem;
 }
 
 /* Footer */
 .footer {
-    background: #333;
+    background: #333333;
     color: white;
     padding: 60px 0 20px;
 }
@@ -653,7 +686,7 @@ body {
 .footer-section h4 {
     font-size: 1.3rem;
     margin-bottom: 1.5rem;
-    color: #f39c12;
+    color: #FFD700;
 }
 
 .footer-section ul {
@@ -665,13 +698,13 @@ body {
 }
 
 .footer-section ul li a {
-    color: #ccc;
+    color: #cccccc;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 .footer-section ul li a:hover {
-    color: #f39c12;
+    color: #FFD700;
 }
 
 .social-links {
@@ -681,7 +714,7 @@ body {
 }
 
 .social-link {
-    color: #ccc;
+    color: #cccccc;
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -690,14 +723,14 @@ body {
 }
 
 .social-link:hover {
-    color: #f39c12;
+    color: #FFD700;
 }
 
 .footer-bottom {
     text-align: center;
     padding-top: 2rem;
-    border-top: 1px solid #555;
-    color: #999;
+    border-top: 1px solid #555555;
+    color: #999999;
 }
 
 /* Responsive Design */
